@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    background-color: rgb(48, 47, 47);
+    padding: 0px 200px;
+    justify-content: space-between;
+}
+
+#nav-logo img {
+    width: 120px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background-color: black;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+#main-logo img{
+    width: 600px;
+}
