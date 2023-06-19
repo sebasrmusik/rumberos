@@ -6,12 +6,12 @@
 header {
     display: flex;
     background-color: rgb(48, 47, 47);
-    padding: 0px 200px;
+    padding: 2vh 10vw;
     justify-content: space-between;
 }
 
 #nav-logo img {
-    width: 120px;
+    width: 8vw;
 }
 
 nav {
@@ -21,7 +21,7 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 20px;
+    gap: 1vw;
 }
 
 nav ul li{
@@ -31,15 +31,17 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 main{
     background-color: black;
-    height: 800px;
+    height: 70vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #main-logo img{
-    width: 600px;
+    width: 45vw;
 }
